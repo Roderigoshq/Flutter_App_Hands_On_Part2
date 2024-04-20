@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:holds_on_part2/pages/segundapagina.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -14,13 +14,12 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize:
-            const Size.fromHeight(60.0), // Definir a altura da AppBar
+        preferredSize: const Size.fromHeight(60.0),
         child: AppBar(
           title: Text(
             "Home Page",
             style: GoogleFonts.poppins(
-              fontSize: 25,
+              fontSize: 20,
               fontWeight: FontWeight.w600,
               color: Colors.white,
             ),
