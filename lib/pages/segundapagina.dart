@@ -4,7 +4,7 @@ import 'package:holds_on_part2/componets/item_component.dart';
 import 'package:holds_on_part2/pages/homepage.dart';
 
 class SegundaPagina extends StatefulWidget {
-  const SegundaPagina({Key? key}) : super(key: key);
+  const SegundaPagina({super.key});
 
   @override
   State<SegundaPagina> createState() => _SecondPageState();
